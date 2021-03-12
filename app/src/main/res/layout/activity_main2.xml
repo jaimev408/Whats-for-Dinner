@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sjsu.jaime.nutritionapplication.newDishActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient9"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="@+id/ingredient9"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient9" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient8"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient8"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient8" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient7"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient7"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient7" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient6"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient6"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient6" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient5"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="@+id/ingredient5"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient5" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient4"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient4" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient3"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient3" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient1"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient1"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient1" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="176dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.14"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipe_name" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ingredient3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:hint="@string/ingredient_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/ingredient2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/ingredient2"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient2" />
+
+            <EditText
+                android:id="@+id/recipe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="@string/recipe_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toStartOf="@+id/ingredient_add_btn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="117dp"
+                android:layout_height="108dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toStartOf="@+id/imageButton"
+                app:layout_constraintHorizontal_bias="0.411"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipe_name"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="140dp"
+                android:layout_marginTop="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipe_name"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <Button
+                android:id="@+id/ingredient_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="28dp"
+                android:onClick="makeRecipe"
+                android:text="@string/add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ingredient_go_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="56dp"
+                android:text="@string/button_back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient_add_btn" />
+
+            <EditText
+                android:id="@+id/recipe_description"
+                android:layout_width="364dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="@string/recipe_description"
+                android:inputType="textPersonName"
+                android:maxLength="250"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient10" />
+
+            <EditText
+                android:id="@+id/calories_text"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="112dp"
+                android:ems="10"
+                android:hint="@string/calories"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ingredient_go_back" />
+
+            <EditText
+                android:id="@+id/carbs_text"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/protein"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/calories_text" />
+
+            <EditText
+                android:id="@+id/protein_text"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/carbs"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carbs_text" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="22dp"
+                android:text="@string/optional"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/calories_text"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

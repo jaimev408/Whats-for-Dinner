@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0, 1"
+    tools:context="edu.sjsu.jaime.nutritionapplication.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:id="@+id/mainHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/mainlogo" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="goToMealPlanner"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/meals" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="goToRecipes"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/recipes" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/secondRow"
+        android:layout_width="100dp"
+        android:layout_height="100dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="goToIngredients"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/groceries" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="goToNewDish"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/newdish" />
+    </TableRow>
+
+</TableLayout>
+
